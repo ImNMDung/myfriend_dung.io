@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/a356fc26bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="transparent lineDown" id="nav">
+            <div class="icon" id="menu-icon">
+                <i class="fa fa-bars" id="menu-dropdown" onclick="menuIcon()"></i>
+            </div>
+            <ul>
+                <li><a href="#home" id="menu1">Home</a></li>
+                <li><a href="#about" id="menu2">About</a></li>
+                <li><a href="#portfolio" id="menu4">Service</a></li>
+                <li><a href="#contact" id="menu5">Contact</a></li>
+            </ul>
+            <label class="switch" for="checkbox">
+                <input type="checkbox" id="checkbox">
+                <span class="slider round fa-solid fa-moon"></span>
+            </label>
+        </nav>
+    </header>
+    <main>
+        <div class="home-wrapper" id="home">
+            <div class="typewriter" id="typewriter">
+            <h1>I'm Quang Minh, </h1>
+                <h1>Hỗ trợ dịch vụ Facebook</h1>
+            </div>
+        </div>
+        <div class="about-wrapper" id="about">
+            <h2 class="heading transparent lineUp1">About</h2>
+            <div class="transparent lineUp2">
+                <div class="card width-about" id="card-about">
+                    <div class="about">
+                        <p>
+                            Tôi hiện đang là học sinh 12 , đam mê tìm hiểu 
+                        </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-wrapper" id="skill">
+            <h2 class="heading transparent lineUp3">Service</h2>
+            <div class="transparent lineUp4">
+                <div class="card" id="card-skill-1">
+                    <div class="skill">
+                        <span class="devicon-facebook-plain colored"></span>
+                        <h4>Facebook</h4>
+                    </div>
+                </div>
+                <!-- <div class="card" id="card-skill-2">
+                    <div class="skill">
+                        <span class="devicon-laravel-plain colored"></span>
+                        <h4>Zalo</h4>
+                    </div>
+                </div>
+                <div class="card" id="card-skill-3">
+                    <div class="skill">
+                        <span class="devicon-javascript-plain colored"></span>
+                        <h4>Instagram</h4>
+                    </div>
+                </div>
+                <div class="card" id="card-skill-4">
+                    <div class="skill">
+                        <span class="devicon-twitter-original colored"></span>
+                        <h4>Twitter</h4>
+                    </div>
+                </div> -->
+               
+            </div>
+        </div>
+       
+                
+            </div>
+        </div>
+        <div class="contact-wrapper" id="contact">
+            <h2 class="heading transparent lineUp7">Contact</h2>
+            <div class="transparent lineUp8">
+                <div class="card width-contact" id="card-contact-1">
+                    <div class="contact">
+                        <a href="tel:your_phone_number" class="font-link-contact">
+                            <span class="fa fa-phone" id="logo-contact-1"></span>  
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="card width-contact" id="card-contact-2">
+                    <div class="contact">
+                        <a href="https://www.facebook.com/DICHVUFBQUANGMINH" class="font-link-contact">
+                            <span class="fa fa-facebook" id="logo-contact-2"></span>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <footer class="transparent lineUp9" id="foot">
+        <p id="foot-text">&#169; <script>document.write(new Date().getFullYear())</script> Made by Minh</p>
+    </footer>
+</body>
+</html>
